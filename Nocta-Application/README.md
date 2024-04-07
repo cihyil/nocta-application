@@ -15,6 +15,8 @@ Kullanılan Teknolojiler:
 
 response mesajları için türkçe ve ingilizce dil desteğini sağlamak için internationalization modülünü yazdım.module olarak yazmamın sebebi farklı servisler içinde kullanabilmek için.
 internationalization modülünü eklemek için resource bundle ları ekleyip @EnableInternalization u base classa eklemek
+
+
 ![img.png](img.png)
 ![img_1.png](img_1.png)
 
