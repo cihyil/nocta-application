@@ -1,0 +1,31 @@
+---
+version: '2'
+services:
+
+  postgresql:
+    image: postgres
+    networks:
+      - common-network
+    ports:
+      - "5435:5432"
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=securitydb
+  login-service:
+    container_name: login-service
+    build:
+      context: login-service
+      dockerfile: Dockerfile
+    image: login-service:latest
+    ports:
+      - 8080:8080
+    networks:
+      - common-network
+    depends_on:
+      - postgresql
+    environment:
+      - POSTGRES_URL=jdbc:postgresql://postgresql:5432/securitydb
+networks:
+  common-network:
+    driver: bridge
