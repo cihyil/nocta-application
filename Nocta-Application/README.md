@@ -47,3 +47,8 @@ admin tokenıyla admin kısımlarına erişme
 
 database kısmında şifreler şifrelenmiş şekilde tutulur 
 ![img_10.png](img_10.png)
+
+custom.app.locale=en olarak setlenirse
+
+![image](https://github.com/javaweb14/nocta-application/assets/35763530/6bbb11c7-a881-4490-8460-125d853a9c00)
+
