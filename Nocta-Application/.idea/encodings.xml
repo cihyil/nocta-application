@@ -2,9 +2,12 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Internationalization/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Login/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Login/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Nocta-Application-frontend/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Swagger/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/login-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/User-Management/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/nocta-api/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

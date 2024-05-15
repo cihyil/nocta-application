@@ -103,9 +103,10 @@
 
   
   <modules>
-    <module>login-service</module>
+    <module>nocta-api</module>
     <module>Internationalization</module>
       <module>Swagger</module>
+    <module>User-Management</module>
   </modules>
   
 </project>

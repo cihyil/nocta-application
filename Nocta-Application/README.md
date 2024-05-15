@@ -32,7 +32,7 @@ sistemi dockerda ayağa kaldırmak için mvn clean install yaptıktan sonra proj
 ![img_5.png](img_5.png)
 
 
-sistem kullanıcı rolü olarak admin ve user  rollerini desteklemekte alttaki init sql i program başlatılınca çalışacak
+sistem kullanıcı rolü olarak admin ve userResponse  rollerini desteklemekte alttaki init sql i program başlatılınca çalışacak
 ![img_4.png](img_4.png)
 
 default değerlerle kullanıcı tanımlama
